@@ -9,6 +9,8 @@ const stopButton = document.querySelector('button[data-stop]');
 startButton.addEventListener("click", colorChange);
 stopButton.addEventListener("click", stopChange);
 
+stopButton.disabled = true;
+
 let RandomColor;
   
 function colorChange () {
